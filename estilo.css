@@ -2,8 +2,9 @@
 
 body {
     -webkit-user-select: none;
-    background-position: 0px 0px, 10px 10px;
-    background-size: 1900px 1550px;
+    background-position: 0px 0px, 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 1800px 1500px;
     background-image:url("http://www.clipart.net.ua/images/clip4562.jpg") ;
 
 }
@@ -35,16 +36,12 @@ body {
     text-align: left;
     textalign: left;
     margin: auto;
-    width: 50%;
+    width: 70%;
     height: 100%;
     blakgr: gray;
     position: relative;
 
 }
-
-
-
-
 
 header {
     margin-top:10px;
