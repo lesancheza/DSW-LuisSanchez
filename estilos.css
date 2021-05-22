@@ -118,7 +118,7 @@ border-radius: 50%;
 /*banner*/
 
 .banner {   
-background: url(..//red724/IMG/banner7.jpg);
+background: url(../IMG/banner7.jpg);
     background-position: center;
     min-height: 400px;
     position: absolute;
