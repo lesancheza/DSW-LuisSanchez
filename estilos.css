@@ -118,7 +118,11 @@ border-radius: 50%;
 /*banner*/
 
 .banner {   
+<<<<<<< HEAD
 background: url(https://image.freepik.com/foto-gratis/mujer-usando-computadora-portatil-cerca-telefono-inteligente-mesa_23-2148040485.jpg);
+=======
+background: url(https://raw.githubusercontent.com/lesancheza/DSW-LuisSanchez/master/IMG/banner5.jpg);
+>>>>>>> 25a4aa606ea2604b9ff62dbb7fc29e6c516c39af
     background-position: center;
     min-height: 400px;
     position: absolute;
