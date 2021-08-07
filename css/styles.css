@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+@import 'mediaqueries.css';
+
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.hero {
+  background-image: url(../img/vectores/vector-1.png);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+ }
+
+/* MENU*/
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(9.1fr);
+  padding: 30px;
+}
+.navbar .menu {
+grid-column: 6 / 9;
+display: flex;
+margin-top: 20px;
+
+}
+.menu li {
+  list-style: none;
+}
+.navbar .brand {
+  color: rgb(233, 220, 220);
+}
+.menu li a {
+  text-decoration: none;
+  margin-right: 2em;
+  font-size: 1.1em;
+  color: rgb(233, 220, 220);
+  font-weight: 350px;
+  padding: 10px 20px;
+  
+}
+
+.menu li a:hover {
+ 
+  color: rgb(32, 10, 10);
+  transition: 0.5s;
+}
+.menu-bar {
+  display: none;
+}
+/* Contenido*/
+.main {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+  .content-info {
+    margin-top: 2em;
+    color: white;
+    
+  }
+  button{
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 3px 14px -8px rgba(0,0,0,0.78) ;
+  }
+  button:hover{
+    box-shadow: none;
+  }
+  .btn-tobuy, .btn-more{
+    background-color: #91006b ;
+    padding: 8px 40px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    border: none;
+  }
+  .btn-more{
+    background:none ;
+    border: 1px solid #ffff;
+    margin: 20px;
+  }
+  .main img {
+    margin-top: 140px;
+    width: 38%;
+  }
+ 
+  
+ 
